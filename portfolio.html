@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio - ○○○</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>○○○</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h2>Project Portfolio</h2>
+      <p style="text-align: center; color: #4a5568; margin-bottom: 40px;">
+        생명과학 실험 및 연구 프로젝트 성과물 모음입니다.
+      </p>
+
+      <div class="portfolio-grid">
+        <!-- 프로젝트 1 -->
+        <div class="portfolio-item">
+          <img src="images/project1.jpg" alt="세포 실험" />
+          <div class="portfolio-overlay">
+            <h3>○○ 세포 효과 분석</h3>
+            <p>qRT-PCR, MTT assay를 통한 약물 효과 연구</p>
+            <div>
+              <a href="pdfs/project_1_report.pdf" class="btn" style="padding: 8px 16px; font-size: 0.85rem;">PDF</a>
+              <a href="research.html" class="btn-link" style="padding: 8px 16px; font-size: 0.85rem; margin-left: 8px;">자세히</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 프로젝트 2 -->
+        <div class="portfolio-item">
+          <img src="images/project2.jpg" alt="ROS 연구" />
+          <div class="portfolio-overlay">
+            <h3>ROS 항산화 연구</h3>
+            <p>H₂O₂ 유도 모델에서의 항산화 효과 분석</p>
+            <div>
+              <a href="pdfs/paper_review_1.pdf" class="btn" style="padding: 8px 16px; font-size: 0.85rem;">PDF</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 프로젝트 3 -->
+        <div class="portfolio-item">
+          <img src="images/project3.jpg" alt="캡스톤" />
+          <div class="portfolio-overlay">
+            <h3>캡스톤 디자인</h3>
+            <p>팀 프로젝트 - 탐구보고서 및 발표</p>
+            <div>
+              <a href="pdfs/capstone_report.pdf" class="btn" style="padding: 8px 16px; font-size: 0.85rem;">PDF</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 빈 슬롯 (추가용) -->
+        <div class="portfolio-item" style="background: linear-gradient(135deg, #f0f4f8, #e6f3ff); display: flex; align-items: center; justify-content: center; text-align: center;">
+          <div>
+            <i class="fas fa-plus-circle" style="font-size: 4rem; color: #2b6cb0; margin-bottom: 15px;"></i>
+            <h3>새 프로젝트</h3>
+            <p>여기에 추가하세요!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 ○○○. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
